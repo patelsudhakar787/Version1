@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLinear">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear1"
+                android:layout_marginTop="10dp"
+                android:background="#c800ff"
+                >
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear2"
+                android:background="#c800ff"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear3"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear4"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear5"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear6"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear7"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear8"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear9"
+                android:layout_marginTop="10dp"
+                >
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear10"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear11"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear12"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear13"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear14"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear15"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear16"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear17"
+                android:layout_marginTop="10dp"
+                >
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear18"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear19"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear20"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear21"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear22"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear23"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear24"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear25"
+                android:layout_marginTop="10dp"
+                >
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear26"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear27"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear28"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear29"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear30"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear31"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/linear32"
+                android:layout_marginTop="10dp">
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

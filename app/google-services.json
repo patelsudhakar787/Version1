@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "423925863",
+    "firebase_url": "https://vibescope-b1895.firebaseio.com",
+    "project_id": "vibescope-b1895",
+    "storage_bucket": "vibescope-b1895.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423925863:android:a4d377f25a5a3474",
+        "android_client_info": {
+          "package_name": "com.example.rlard008.prototype2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423925863-kq5e2tgtletm4b1oblgvkbl2sj8aapqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApotA94FK2rLk_kXNDqixS1EXPgPdkPHc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/v"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_nav1"
+        android:drawablePadding="@dimen/pad_15dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/pad_10dp"
+        android:paddingLeft="@dimen/pad_20dp"
+        android:paddingRight="@dimen/pad_20dp"
+        android:paddingTop="@dimen/pad_10dp"
+        android:text="@string/app_name"
+        android:textColor="#030303"
+        android:textSize="7pt"
+        >
+    </TextView>
+
+</LinearLayout>

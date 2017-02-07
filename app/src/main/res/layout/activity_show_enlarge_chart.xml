@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content1"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@color/main_color"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview1"
+                android:text="Two days ago"
+                android:textColor="@color/blue_sky"
+                android:textSize="10pt"
+                android:layout_marginLeft="20dp"
+                android:focusableInTouchMode="true"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview2"
+                android:text="Yesterday"
+                android:layout_marginLeft="50dp"
+                android:textSize="10pt"
+                android:textColor="@color/blue_sky"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview3"
+                android:text="CustomDate"
+                android:pointerIcon="crosshair"
+                android:layout_marginLeft="50dp"
+                android:textSize="10pt"
+                android:textColor="@color/blue_sky"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/undertextview"
+        android:orientation="vertical"></LinearLayout>
+
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/graph"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/con">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/current_value"
+                android:text="Current_Value"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edittextvalue"
+                android:layout_marginLeft="50dp"/>
+
+        </LinearLayout>
+        <ListView
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewEnlargeChart"
+            />
+    </LinearLayout>
+
+</LinearLayout>

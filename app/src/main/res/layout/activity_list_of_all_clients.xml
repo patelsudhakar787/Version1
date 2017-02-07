@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerAdmin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+    <FrameLayout
+
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#a0dadc"
+
+        />
+
+    <!-- <include layout="@layout/navigation_header"/>  -->
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:id="@+id/linearlayout1"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:src="@drawable/vibe_logo"
+            android:background="@color/white"/>
+
+        <ListView
+            android:paddingTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/left_drawer_Admin"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:layout_gravity="start"
+            android:background="@color/white"
+            />
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
